@@ -17,3 +17,4 @@ module.exports = new Sequelize(connectionString, {
 
 // run our models file (makes all associations for our Sequelize objects)
 require('./models')
+console.log('models in')
